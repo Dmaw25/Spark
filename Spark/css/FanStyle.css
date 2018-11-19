@@ -3,3 +3,20 @@
 video{
 
 }
+Shelves{
+    
+}
+iframe{
+    width:400px;
+    height:300px;
+}
+img {
+    width: 600px;
+    height: 400px;
+    flex-direction: row;
+    padding:2px 2px;
+}
+p{
+   font-size:large;
+    
+}

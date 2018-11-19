@@ -1,5 +1,5 @@
 ﻿body {
-    background-color:aliceblue;
+    background-color:mediumvioletred;
     height:100vh;
     background-size:cover;
     background-position:center;
@@ -44,7 +44,7 @@
 }
 .form .message{
     margin:15px 0 0;
-    color:aliceblue;
+    color:rebeccapurple;
 }
 .form .message a{
     color:forestgreen;

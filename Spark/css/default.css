@@ -1,12 +1,31 @@
-﻿ul {
+﻿body {
+    background-color: black;
+    background-image: url(https://million-wallpapers.com/wallpapers/4/68/437506538046513.jpg);
+    background-size:cover;
+    font-family:'Segoe UI';
+    color:cornflowerblue;
+}
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position:sticky;
+    position: sticky;
+    
 }
-
+section {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLuMLyDDg91-nGUceY5lCLmdmY2eM93Kw6UHh3GNkzoe8AbY_l);
+    height: 140px;
+    width: 100%;
+}
+    section strong {
+        text-align: center;
+        margin-left: 650px;
+        color: dodgerblue;
+        font-size: 30px;
+        font-family: 'Lucida Sans';
+    }
 li {
     float: left;
     display:inline;
@@ -52,6 +71,7 @@ label{
     width:1300px;
     overflow:hidden;
     display:block;
+    
 }
 .shelf{
     position:relative;

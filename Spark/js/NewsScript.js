@@ -21,17 +21,20 @@ fetch(apiUrl)
             let author = data.articles;
             return author.map(function (authors) {
                 let li = createNode('li'),
+                    a = createNode('a'),
                     br = createNode('br'),
                     div = createNode('div'),
                     art = createNode('article'),
                     header = createNode('header');
+                a.setAttribute('href', `${authors.url}`,'target',"_blank");
                 header.innerHTML = `${authors.title}`;
                 div.innerHTML = `${authors.description}`;
                 art.innerHTML = `${authors.content}`;
-                append(li, header);
+                append(a, header);
+                append(li, a);
                 append(li, br);
-                append(li, div);   
-                append(li, art);
+                append(a, div);   
+                append(a, art);
                 append(ul, li);
             })
         })

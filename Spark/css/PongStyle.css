@@ -14,7 +14,10 @@ html, body {
     background-color: blue;
     right: 100px;
 }
-
+h1 {
+    font-family: BDCartoonShoutRegular;
+    text-align: center;
+}
 .paddle {
     top: 0;
     height: 200px;

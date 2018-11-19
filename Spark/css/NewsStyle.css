@@ -1,13 +1,37 @@
 ﻿body {
 }
 #GameNews{
-    background-color:white;
+    background-color:khaki;
+   margin: 10px 200px auto 200px;
+  max-width:1200px;
+  min-width:300px;
 }
+#GameNews li{
+    padding:10px 10px 10px 10px;
+    
+}
+    #GameNews a {
+        background-color: ghostwhite;
+        border: solid 1px;
+        text-align: left;
+    }
+#GameNews a:hover{
+    background-color:khaki;
+}
+#GameNews div{
+    color:black;
+}
+    #GameNews header {
+        color: black;
+        font-weight: 400;
+        font-size:x-large;
+    }
 article{
-
+    color:black;
 }
 .search-box:hover > .search-txt{
-
+    width:240px;
+    padding: 0 6px;
 }
 .search-box{
 
@@ -15,3 +39,21 @@ article{
 .search-btn{
 
 }
+.search-txt{
+    border:none;
+    background:none;
+    outline:none;
+    float:left;
+    padding:0;
+    color:cornflowerblue;
+    font-size:16px;
+    transition:0.4s;
+    line-height:40px;
+    width:240px;
+}
+strong{
+    text-align:center;
+    font-size:larger;
+}
+
+

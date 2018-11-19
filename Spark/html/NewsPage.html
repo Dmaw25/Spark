@@ -5,27 +5,40 @@
     <title>Retro Arcade News</title>
     <link href="../css/default.css" rel="stylesheet" />
     <link href="../css/NewsStyle.css" rel="stylesheet" />
-    <script defer src="http://use.fontawesome.com/release/v5.0.6/js/all.js"></script>
+    <!--<script defer src="http://use.fontawesome.com/release/v5.0.6/js/all.js"></script>-->
  </head>
 <body>
-    <strong style="text-align:center;">Retro Arcade</strong>
-    <div>
-        <ul class="">
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="FanPage.html">Fan Page</a></li>
-            <li><a href="NewsPage.html">News</a></li>
-            <li><a href="">About</a></li>
-            <li style="float:right;"><a class="active" href="LoginPage.html">Sign in</a></li>
-        </ul>
+    <header>
+        <section>
+            <strong>Retro Arcade</strong>
+        </section>
+        <div>
+            <ul class="">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="FanPage.html">Fan Page</a></li>
+                <li><a href="NewsPage.html">News</a></li>
+                <li style="float:right;"><a class="active" href="LoginPage.html" target="_blank">Sign in</a></li>
+            </ul>
+        </div>
+    </header>
+    <br />
+    <div >
+        <form action="http://ign.com/search" method="get" class="search-box">
+            <strong>Search on <img src="https://lh3.ggpht.com/o4TLwXw2A8XzcVMAv47nEePwYnv-8Kw7P2TCD5FtOzw2KImHLGph2dXd-Ok_795dUfg=s180" width="20" height="20" /></strong>
+            <input class="search-txt" type="text" name="q" placeholder="Type to search" />
+            <input class="search-btn" type="submit" hidden/>
+        </form>
     </div>
     <br /><br /><br />
-    <div class="search-box">
-        <input type="text" name="" placeholder="Type to search" />
-        <a class="search-btn" href="#">
-            <i class="fas fa-stroopwafel"></i>
-        </a>
+    <div>
+        
+        <ul id="GameNews">
+            <li><strong>Gaming News</strong></li>
+        </ul>
     </div>
-    <ul id="GameNews"></ul>
     <script src="../js/NewsScript.js"></script>
+    <footer>
+
+    </footer>
 </body>
 </html>
