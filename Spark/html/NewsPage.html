@@ -4,11 +4,13 @@
     <meta charset="utf-8" />
     <title>Retro Arcade News</title>
     <link href="../css/default.css" rel="stylesheet" />
-</head>
+    <link href="../css/NewsStyle.css" rel="stylesheet" />
+    <script defer src="http://use.fontawesome.com/release/v5.0.6/js/all.js"></script>
+ </head>
 <body>
     <strong style="text-align:center;">Retro Arcade</strong>
     <div>
-        <ul>
+        <ul class="">
             <li><a href="Home.html">Home</a></li>
             <li><a href="FanPage.html">Fan Page</a></li>
             <li><a href="NewsPage.html">News</a></li>
@@ -16,5 +18,14 @@
             <li style="float:right;"><a class="active" href="LoginPage.html">Sign in</a></li>
         </ul>
     </div>
+    <br /><br /><br />
+    <div class="search-box">
+        <input type="text" name="" placeholder="Type to search" />
+        <a class="search-btn" href="#">
+            <i class="fas fa-stroopwafel"></i>
+        </a>
+    </div>
+    <ul id="GameNews"></ul>
+    <script src="../js/NewsScript.js"></script>
 </body>
 </html>

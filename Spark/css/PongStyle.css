@@ -8,13 +8,11 @@ html, body {
 #left-paddle {
     background-color: green;
     left: 100px;
-    margin-top:250px;
 }
 
 #right-paddle {
     background-color: blue;
     right: 100px;
-    margin-top: 250px;
 }
 
 .paddle {
